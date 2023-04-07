@@ -86,31 +86,26 @@
 }
 
 .main-making-img {
-    display: flex;
-    background-size: contain;
-    width: 50%;
+    width: 100%;
     position: relative;
 }
 
 .main-making-img__1 {
-    max-width: 250px;
-    align-self: flex-end;
-    padding-bottom: 0;
+    position: absolute;
+    bottom: 0;
+    right: 350px;
 }
 
 .main-making-img__2 {
-    max-width: 300px;
-    margin-left: 7px;
-    margin-top: 35px;
+    position: absolute;
+    top: 35px;
+    right: 43px;
 }
 
 .main-making-img__3 {
-    align-self: end;
-    max-width: 167px;
-    padding: 0;
     position: absolute;
-    margin-left: 436px;
-    margin-bottom: 60px;
+    bottom: 61px;
+    left: 580px;
 }
 
 .btn-section {
