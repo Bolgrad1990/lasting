@@ -316,7 +316,21 @@
     right: 100px;
 }
 
-.main-subtitle {}
+.main-subtitle {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-text {
+    width: 510px;
+    padding-top: 120px;
+    font-size: 49px;
+    text-align: center;
+    line-height: 58px;
+}
 
 .main-become {}
 
